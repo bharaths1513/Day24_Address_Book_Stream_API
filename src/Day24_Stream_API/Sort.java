@@ -9,7 +9,7 @@ public class Sort {
 		}
 	};
 	/*
-	 * anonymous calss to State search
+	 * to State search
 	 */
 	static Comparator<Contacts> compareState = new Comparator<Contacts>() {
 		public int compare(Contacts one, Contacts two) {
@@ -19,7 +19,7 @@ public class Sort {
 
 	/*
 	 * 
-	 * anonymous calss to search a person by using first name
+	 * to search a person by using first name
 	 *
 	 */
 	static Comparator<Contacts> compareFirstName = new Comparator<Contacts>() {
@@ -29,7 +29,7 @@ public class Sort {
 	};
 	/*
 	 * 
-	 * anonymous calss to search a person by zip
+	 * to search a person by zip
 	 *
 	 */
 	static Comparator<Contacts> compareZip = new Comparator<Contacts>() {
